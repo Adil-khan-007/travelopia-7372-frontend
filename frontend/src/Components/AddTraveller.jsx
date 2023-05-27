@@ -11,7 +11,7 @@ function AddTraveller(props) {
     const [price,setPrice] = useState(0);
 
     const fetchData = ()=>{
-        return fetch("http://localhost:3004/addUser",{
+        return fetch("https://ill-pear-quail-ring.cyclic.app/addUser",{
             method : "POST",
             headers : {
                 "Content-Type" : "application/json"
